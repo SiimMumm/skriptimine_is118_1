@@ -10,12 +10,12 @@ then
 	echo "Tere hommikust"
 
 #Kas on päev?
-elif test $kell -ge -a $kell -lt 18
+elif test $kell -ge 12 -a $kell -lt 18
 then
 	echo "Tere päevast"
 
 #Kas on õhtu?
-elif test $kell -ge 22 -a $kell -le 24 -o $kell -ge 0 -a $kell -lt 6
+elif test $kell -ge 18 -a $kell -lt 22
 then
 	echo "Tere õhtust"
 
